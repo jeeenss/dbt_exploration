@@ -1,10 +1,12 @@
 # Logs and debug files
-logs/*
+logs/
 debug.log
+logs/dbt.log
 
 # dbt-generated files
 dbt_packages/
 target/*
+target/*.json
 
 # Sensitive files
 profiles.yml
