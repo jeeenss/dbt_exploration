@@ -5,7 +5,7 @@ logs/dbt.log
 
 # dbt-generated files
 dbt_packages/
-target/*
+target/
 target/*.json
 
 # Sensitive files
