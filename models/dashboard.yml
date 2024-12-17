@@ -1,0 +1,16 @@
+version: 2
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://7328dc35.us2a.app.preset.io/superset/dashboard/8/?edit=true&native_filters_key=YfQp6hVmxLcMCG1KKLO9ebKM0AcwYx1mkK1-zwZWQ5cvqOK_TNiInVHPFaErHCDi
+    description: Executive Dashboard about Airbnb listings and hosts
+    
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('mart_fullmoon_reviews')
+    
+    owner:
+      name: Jeni Welldaugh
+      email: callmeyeeen@gmail.com
